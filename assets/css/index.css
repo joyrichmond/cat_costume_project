@@ -3,17 +3,45 @@ body {
 }
 
 h1 {
-  font-family: 'PT Sans Narrow', sans-serif;
+  font-family: "PT Sans Narrow", sans-serif;
   font-size: 1.5rem;
   text-align: center;
   padding: 1rem 0;
+  margin: 0;
 }
 
 nav {
   display: none;
 }
 
+.slogan-header {
+  background-image: url(../images/kats-hero-mobile-bg.jpg);
+  height: 49vh;
+  position: relative;
+}
 
+.slogan {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 3rem 0;
+  }
+
+.slogan > p {
+  text-transform: uppercase;
+  color: white;
+  text-align: center;
+  font-family: "PT Sans Narrow", sans-serif;
+}
+.hero-image {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+
+.hero-image {
+  text-align: center;
+}
 
 
 /* On devices wider than 660px */
