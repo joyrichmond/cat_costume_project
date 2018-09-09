@@ -83,6 +83,29 @@ p {
   line-height: 2rem;
 }
 
+h3 {
+  font-family: "PT Sans Narrow", sans-serif;
+  text-align: center;
+  font-size: 1.5rem;
+  color: #00897f;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+.about {
+  background-color: #eeeeee;
+  padding: 1rem;
+}
+
+.cat-dracula {
+  text-align: center;
+  padding: 3rem;
+}
+
+.cat-dracula > img {
+  border-radius: 8rem;
+}
+
 /* On devices wider than 660px */
 @media(min-width: 660px) {
 }
