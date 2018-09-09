@@ -14,25 +14,52 @@ nav {
   display: none;
 }
 
+
 .slogan-header {
   background-image: url(../images/kats-hero-mobile-bg.jpg);
   height: 49vh;
   position: relative;
 }
 
-.slogan {
+.slogan-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.slogan-flex {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  margin: 3rem 0;
+  padding: 2rem 2rem;
   }
 
-.slogan > p {
+.slogan-flex > p {
   text-transform: uppercase;
   color: white;
   text-align: center;
   font-family: "PT Sans Narrow", sans-serif;
+  margin: 0;
+  font-weight: 700;
+  line-height: 2rem;
 }
+
+.slogan-1 {
+  font-size: 1rem;
+  align-self: flex-start;
+}
+
+.slogan-2 {
+  font-size: 3rem;
+  align-self: stretch;
+  font-style: italic;
+}
+
+.slogan-3 {
+  font-size: 1rem;
+  align-self: flex-end;
+  flex-shrink: 0;
+}
+
 .hero-image {
   position: absolute;
   width: 100%;
