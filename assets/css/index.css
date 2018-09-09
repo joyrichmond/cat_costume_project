@@ -1,3 +1,8 @@
+
+html {
+  font-size: 14pt;
+}
+
 body {
   margin: 0;
 }
@@ -21,43 +26,42 @@ nav {
   position: relative;
 }
 
-.slogan-container {
+.slogan-align {
   width: 100%;
   display: flex;
   justify-content: center;
 }
 
-.slogan-flex {
-  display: flex;
-  flex-direction: column;
+.slogan-container {
   padding: 2rem 2rem;
   }
 
-.slogan-flex > p {
+.slogan-container > p {
   text-transform: uppercase;
   color: white;
-  text-align: center;
   font-family: "PT Sans Narrow", sans-serif;
   margin: 0;
   font-weight: 700;
-  line-height: 2rem;
+  padding: 0;
 }
 
 .slogan-1 {
   font-size: 1rem;
-  align-self: flex-start;
+  text-align: left;
+  line-height: 1rem;
 }
 
 .slogan-2 {
   font-size: 3rem;
-  align-self: stretch;
   font-style: italic;
+  line-height: 3rem;
+  text-align: left;
 }
 
 .slogan-3 {
   font-size: 1rem;
-  align-self: flex-end;
-  flex-shrink: 0;
+  text-align: right;
+  line-height: 1rem;
 }
 
 .hero-image {
@@ -68,7 +72,7 @@ nav {
 }
 
 .cat-titude {
-  padding: 1rem;
+  padding: 2rem;
 }
 
 h2 {
@@ -94,7 +98,7 @@ h3 {
 
 .about {
   background-color: #eeeeee;
-  padding: 1.5rem;
+  padding: 2rem;
 }
 
 .cat-dracula {
