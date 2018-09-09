@@ -94,7 +94,7 @@ h3 {
 
 .about {
   background-color: #eeeeee;
-  padding: 1rem;
+  padding: 1.5rem;
 }
 
 .cat-dracula {
@@ -104,6 +104,52 @@ h3 {
 
 .cat-dracula > img {
   border-radius: 8rem;
+}
+
+.about > h2 {
+  display: none;
+}
+
+.info-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.info {
+  display: flex;
+  color: #323232;
+}
+
+.info-label {
+  text-transform: uppercase;
+  font-weight: 800;
+  margin: 0;
+}
+
+.info-content {
+  padding-left: 0.5rem;
+  margin: 0;
+}
+
+.address {
+  margin: 0;
+  padding-left: 0.5rem;
+  color: #f26522;
+  font-weight: 800;
+}
+
+.map {
+  height: 41vh;
+  background-image: url(../images/kats-map.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+footer {
+  background-color: #00897f;
+  color: white;
+  font-family: "PT Sans Serif", sans-serif;
 }
 
 /* On devices wider than 660px */
