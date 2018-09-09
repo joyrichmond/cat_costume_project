@@ -64,12 +64,24 @@ nav {
   position: absolute;
   width: 100%;
   bottom: 0;
-}
-
-.hero-image {
   text-align: center;
 }
 
+.cat-titude {
+  padding: 1rem;
+}
+
+h2 {
+  font-family: "PT Sans Narrow", sans-serif;
+  text-align: center;
+  font-size: 1.7rem;
+  color: #323232;
+}
+
+p {
+  font-family: "PT Serif", serif;
+  line-height: 2rem;
+}
 
 /* On devices wider than 660px */
 @media(min-width: 660px) {
