@@ -104,12 +104,14 @@ h3 {
 }
 
 .costume-images {
-  text-align: center;
+  display: flex;
+  justify-content: space-around;
   padding: 3rem;
 }
 
 .costume-images > img {
   border-radius: 8rem;
+  margin: 1rem;
 }
 
 .info-container {
@@ -190,30 +192,38 @@ footer > p {
     text-transform: uppercase;
   }
   
-  .costume-images {
+  .staff {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    padding: 0 2rem 2rem 2rem;
+  }
+
+  .staff-container {
+    margin: 0 2rem;
+    padding: 2rem;
+    background-color: #eeeeee;
+  }
+
+  .store {
     display: flex;
     justify-content: space-around;
   }
 
-  .costume-images > img {
-    margin: 1rem;
-  }
-  
-  .about {
+  .info-box {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: space-around;
   }
 
-  .store-box {
-    background-color: #eeeeee;
-    padding: 0;
+  .store > h2 {
+    margin: 0;
   }
 
   .store-container {
-    margin: 0 1rem;
-    max-width: 400px;
-    flex-grow: 1;
-    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }
 
@@ -229,5 +239,29 @@ footer > p {
     padding: 0 5rem;
   }
 
-  
+  .staff {
+    flex-direction: row;
+    padding: 0 2rem 2rem 2rem;
+  }
+
+  .store-box {
+    background-color: #eeeeee;
+    padding: 0;
+  }
+
+  .store {
+    padding: 2rem;
+  }
+
+  .store-box > h2 {
+    padding: 2rem 0 0 0;
+    margin: 0;
+  }
+  .store-container {
+    margin: 0 1rem;
+    max-width: 400px;
+    flex-grow: 1;
+    background-color: white;
+    padding: 1rem 2rem;
+  }
 }
