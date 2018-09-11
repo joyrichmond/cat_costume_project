@@ -95,9 +95,12 @@ h3 {
   font-weight: 900;
 }
 
-.about-container {
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
   background-color: #eeeeee;
-  padding: 2rem 2rem 1rem 2rem;
+  padding: 2rem;
 }
 
 .costume-images {
